@@ -11,18 +11,24 @@
 
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <style>
-        .center-screen {
+        .content {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            margin-top: 35%;
             text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            .content {
+                margin-top: 50%;
+            }
         }
         </style>
     </head>
     <body>
-        <div class="center-screen">
+        <div class="content">
             <h1 style="font-size: 10rem; margin-top: 15px; margin-bottom: 15px;">👻</h1>
             <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #009292; font-size: 14px; font-weight: bold">andrei ꩜ demian • boo</p>
         </div>
